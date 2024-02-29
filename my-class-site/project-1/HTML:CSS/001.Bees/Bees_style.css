@@ -1,0 +1,34 @@
+body {
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+.images {
+	text-align: center;
+}
+.header1 {
+	background-color: red;
+	color: blue;
+	font-family: courier;
+	text-align: center;
+}
+.header2 {
+	background-color: blue;
+	color: yellow;
+	font-family: courier new, monospace;
+	text-align: center;
+}
+.header3 {
+	background color: lightpink;
+	color: red;
+	font-family: Times New Roman;
+	font-display: uppercase;
+	text-align: center;
+}
+.header4 {
+	background-color: black;
+	color: white;
+	font-family: andale mono, monospace;
+	text-align: center;
+}

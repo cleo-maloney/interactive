@@ -1,0 +1,28 @@
+body {
+	font-family: arial narrow;
+	font-size: 8 px;
+	background-image: linear-gradient(midnightblue, lightgoldenrodyellow);
+	text-align: justify;
+	margin-left: 5x;
+	margin-right: 5px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 10px; 
+}
+.outlined-text {
+  color: yellow; 
+  text-shadow: 
+    -1px -1px 0 #ff00ff,  
+    1px -1px 0 #ff00ff,
+    -1px 1px 0 #ff00ff,
+    1px 1px 0 #ff00ff; 
+}
+.images {
+	max-width: 200px;
+	position: fixed;
+}
+.imagesend {
+	max-width: 400px;
+}

@@ -1,0 +1,56 @@
+body {
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: lavenderblush;
+	color: blue;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+}
+.title {
+	font-family: andale mono, monospace;
+	text-transform: uppercase;
+	format: inline-block;
+	background-color: magenta;
+	font-size: 66px;
+	text-align: center;
+	position: fixed;
+}
+.titleII {
+	background-color: yellow;
+	font-family: courier new, monospace;
+}
+.body {
+	font-family: Times New Roman;
+	font-style: italic;
+	text-align: center;
+	color: orangered;
+}
+.nighttime {
+	background-color: midnightblue;
+	color: lightyellow;
+	text-align:center;
+}
+.smallheader {
+	font-family: courier, monospace;
+	color: blueviolet;
+	text-align: right;
+	background-color: lightgreen;
+}
+.embrace {
+	background-color: red;
+	color: yellow;
+	margin-left: 40%;
+}
+.container {
+	display: flex;
+}
+.images {
+	flex: 1;
+	height: 100%;
+	width: 100%;
+}
+
+

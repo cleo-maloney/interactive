@@ -1,0 +1,134 @@
+html, body {
+	margin: 80px;
+	padding: 0;
+}
+body {
+	background-color: darkseagreen;
+	font-family: arial;
+	text-align: left;
+}
+.crocodilian {
+	color: chartreuse;
+	font-size: 50px;
+	font-family: arial;
+	text-transform: capitalize;
+	font-style: italic;
+	display: inline;
+		background-color: red;
+		padding: 10px;
+		margin: 0px;
+
+}
+.title {
+	color: orchid;
+	font-size: 90px;
+	text-align: center;
+	text-transform: captialize;
+	font-style: italic;
+	font-family: arial;
+	text-transform: uppercase;
+	display: block;
+      background-color: green;
+      padding: 10px;
+      margin: 25px;
+}
+.header {
+	color: darkgreen;
+	font-size: 50px;
+	font-family: arial;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline-block;
+		background-color: yellow;
+		padding: 10px;
+		margin: 10px;
+	}
+.forget {
+	color: chartreuse;
+	font-size: 70px;
+	font-family: arial;
+	text-transform: uppercase;
+	text-align: center;
+	display: inline;
+		background-color: red;
+		padding: 10px;
+		margin: 0px;
+
+}
+.emphasis {
+	color: palegreen;
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bolder;
+	letter-spacing: 10 px;
+	text-transform: capitalize;
+	display: inline-block;
+		background-color: maroon;
+		padding: 10px;
+		margin: 10px;
+}
+.attack {
+	color: orchid;
+	font-size: 50px;
+	text-align: justify;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style: italic;
+	display: inline-block;
+		background-color: darkorchid;
+		padding: 10px;
+		margin: 10px;
+}
+.bodytext {
+	color: olive;
+	display: inline-block;
+		background-color: mediumspringgreen;
+		padding: 10px;
+		margin: 10px;
+}
+
+
+Write declarations like
+	font-size: value;
+	GRAMMAR MATTERS
+
+font-style
+	normal
+	italic
+		oblique
+font-weight
+	normal
+	bold
+font-size
+	xx-small
+	xx-small
+	small
+	medium
+	large
+	x-large
+	xx-large
+font-family
+	Times New Roman
+	Arial
+	Helvetica
+	Cursive
+	Fantasy
+text-align
+	left
+	right
+	center
+	justify
+text-transform
+	capitalize
+	uppercase
+	lowercase
+line-height
+	1
+	~
+	1.5
+	~
+	2 
+letter-spacing
+	-5 px
+	~
+	20 px

@@ -1,0 +1,107 @@
+body {
+	background-color: darkseagreen;
+	font-family: Times New Roman;
+	text-align: left;
+}
+.background {
+	background-position: center; 
+	backgrund-size:cover;
+	background-image:url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTFjb2NuNGFqcmh2bG10bmFocDhzZ3hxd21uNzBrNThlNGE1cGlrbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/69Fn185P1srWWsY5fk/giphy.gif) 
+}
+.images {
+	display: flex;
+	width: 200p;
+	height: auto;
+}
+.crocodilian {
+	color: chartreuse;
+	font-size: 50px;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.title {
+	color: orchid;
+	font-size: 50px;
+	text-align: center;
+	text-transform: captialize;
+	font-style: italic;
+	text-transform: uppercase;
+	position: fixed;
+	background-color: darkred;
+
+}
+.header {
+	color: darkgreen;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	}
+.forget {
+	color: chartreuse;
+	font-size: 80px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.emphasis {
+	color: palegreen;
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 10 px;
+	text-transform: capitalize;
+}
+.attack {
+	color: orchid;
+	font-size: 50px;
+	text-align: justify;
+	font-weight: bold;
+	text-transform: capitalize;
+	font-style: italic;
+	background-color: yellow;
+
+}
+
+Write declarations like
+	font-size: value;
+	GRAMMAR MATTERS
+
+font-style
+	normal
+	italic
+		oblique
+font-weight
+	normal
+	bold
+font-size
+	xx-small
+	xx-small
+	small
+	medium
+	large
+	x-large
+	xx-large
+font-family
+	Times New Roman
+	Arial
+	Helvetica
+	Cursive
+	Fantasy
+text-align
+	left
+	right
+	center
+	justify
+text-transform
+	capitalize
+	uppercase
+	lowercase
+line-height
+	1
+	~
+	1.5
+	~
+	2 
+letter-spacing
+	-5 px
+	~
+	20 px

@@ -1,0 +1,114 @@
+html, body {
+	margin: 100px;
+	padding: 0;
+}
+body {
+	background-color: yellow;
+	font-family: arial;
+	text-align: left;
+}
+div {
+	border-style: dotted;
+	border-width: 3 px;
+	border-color: blue;
+}
+.title {
+	display: block;
+	color: hotpink;
+	font-size: 130px;
+	text-transform: captialize;
+	font-style: italic;
+	font-family: arial;
+	text-transform: uppercase;
+	display: block;
+      background-color: blue;
+      padding: 10px;
+      margin: 25px;
+}
+.header {
+	color: mediumvioletred;
+	font-size: 30px;
+	font-family: arial;
+	text-transform: capitalize;
+	letter-spacing: 5px;
+	display: inline;
+      background-color: plum;
+      padding: 0px;
+      margin: 100px;
+}
+.example {
+	color: white;
+	font-size: 35px;
+	font-family: arial;
+	text-transform: uppercase;
+	font-style:italic;
+	display: inline-block;
+      background-color: red;
+      padding: 10px;
+      margin: 100px;
+
+}
+.beinterested {
+	color: cornflowerblue;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: bolder;
+	letter-spacing: 30px;
+	display: inline-block;
+      background-color: lightpink;
+      padding: 10px;
+      margin: 100px;
+}
+.bodytext {
+	color: blue;
+	display: inline-block;
+		background-color: lightblue;
+		padding: 10px;
+		margin: 10px;
+}
+
+
+Write declarations like
+	font-size: value;
+	GRAMMAR MATTERS
+
+font-style
+	normal
+	italic
+		oblique
+font-weight
+	normal
+	bold
+font-size
+	xx-small
+	xx-small
+	small
+	medium
+	large
+	x-large
+	xx-large
+font-family
+	Times New Roman
+	Arial
+	Helvetica
+	Cursive
+	Fantasy
+text-align
+	left
+	right
+	center
+	justify
+text-transform
+	capitalize
+	uppercase
+	lowercase
+line-height
+	1
+	~
+	1.5
+	~
+	2 
+letter-spacing
+	-5 px
+	~
+	20 px

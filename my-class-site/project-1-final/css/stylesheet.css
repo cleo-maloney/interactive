@@ -1,0 +1,101 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	text-align: justify;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-size: 16px;
+	webkit-font-smoothing: none; 
+	text-rendering: optimizelegibility;
+	letter-spacing: -0.5px;
+}
+.title {
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: yellow;
+}
+.header {
+	font-size: 22px;
+}
+
+.font1 {
+    font-family: Arial, sans-serif;
+}
+
+.font2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.font3 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.font4 {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.font5 {
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.font6 {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.font7 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.font8 {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.font9 {
+    font-family: "Times New Roman", Times;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.font10 {
+    font-family: Garamond, serif;
+}
+.font11 {
+        font-family: 'Indie Flower', cursive;
+}
+.font12 {
+        font-family: 'VT323', monospace;
+        letter-spacing: 10px;
+}
+
+.center {
+	text-align: center;
+
+}
+.container {
+    margin: 0 auto; 
+    width: 80%; 
+    padding: 20px; 
+    position: relative; 
+}
+
+.left-image {
+    position: fixed; 
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 32%;
+    height: 100%;
+}
+
+.right-image {
+    position: fixed; 
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 32%;
+    height: 100%;
+}
+

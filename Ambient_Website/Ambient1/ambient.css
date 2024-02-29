@@ -1,0 +1,127 @@
+body {
+	box-sizing: border-box;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Responsive grid with minimum width of 100px */
+    gap: 10px; /* Gap between grid items */
+    padding: 10px; /* Padding for the grid container */
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Default color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: changeColor 1s infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    from { background-color: white; } /* Start color */
+    to { background-color: midnightblue; } /* End color */
+}
+
+/* Hover effect */
+.circle:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+/* CIRCLE 2*/
+.circle2 {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Default color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: changeColor 1s infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    from { background-color: white; } /* Start color */
+    to { background-color: midnightblue; } /* End color */
+}
+
+/* Hover effect */
+.circle2:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+/* CIRCLE 3*/
+.circle3 {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Default color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: changeColor 1s infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    from { background-color: white; } /* Start color */
+    to { background-color: midnightblue; } /* End color */
+}
+
+/* Hover effect */
+.circle3:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
+/* CIRCLE 4*/
+.circle4 {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Default color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: changeColor 1s infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    from { background-color: white; } /* Start color */
+    to { background-color: midnightblue; } /* End color */
+}
+
+/* Hover effect */
+.circle4:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
+/* CIRCLE 5*/
+.circle5 {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Default color */
+    border-radius: 50%; /* Makes the element circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation: changeColor 1s infinite alternate; /* Apply animation */
+}
+
+/* Keyframes for changing color */
+@keyframes changeColor {
+    from { background-color: white; } /* Start color */
+    to { background-color: midnightblue; } /* End color */
+}
+
+/* Hover effect */
+.circle5:hover {
+    animation-play-state: paused; /* Pause animation on hover */
+}
+
