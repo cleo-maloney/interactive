@@ -141,4 +141,10 @@ body {
     text-transform: uppercase;
     background-color: yellow;
 }
+.xstitle{
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
 
