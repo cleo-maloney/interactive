@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #white; /* Optional: Set a background color */
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+#images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album {
+    position: absolute;
+    max-height: 80vh; /* Adjust this to your preference */
+    width: auto;
+    opacity: 0; /* Initially set to transparent */
+    transition: opacity 0.5s ease-in-out; /* Smooth transition for opacity */
+    z-index: 1; /* Set initial z-index to 1 to display above background */
+}
+
+.album.active {
+    opacity: 1; /* Set to fully opaque for the active image */
+    z-index: 2; /* Set the active image to the top of the stack */
+}

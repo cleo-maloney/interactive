@@ -1,0 +1,15 @@
+#images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  clip-path: inset(30px 30px 30px 30px);
+}
