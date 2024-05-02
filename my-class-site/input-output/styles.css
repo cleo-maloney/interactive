@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+.red, .blue, .green {
+  width: 10em;
+  height: 8em;
+  display: inline-block;
+  background-size: cover; 
+}
+
+.red {
+  background-image: url(https://i.etsystatic.com/6853575/r/il/27d418/1595515041/il_fullxfull.1595515041_jrgw.jpg);
+}
+
+.green {
+  background-image: url(https://s3.amazonaws.com/media.jungledragon.com/images/5803/126561_small.jpeg?AWSAccessKeyId=05GMT0V3GWVNE7GGM1R2&Expires=1716422410&Signature=tuhz7AGpF8bgkZQ5d%2BgylPQMItw%3D)
+}
+
+.blue {
+  background-image: url(https://bicbugs.com/wp-content/uploads/2019/03/Torynorrhina-flammea-green.jpg);
+}
+
+a {
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+}
